@@ -6,7 +6,12 @@ Tenant-scoped support answers with citations and escalation.
 
 **Role focus:** Applied AI Engineer / RAG Engineer. **Status:** working local portfolio implementation, with synthetic data.
 
-![Application screenshot](docs/screenshot.png)
+
+## Demo
+
+![How Support RAG Desk works](docs/demo.gif)
+
+Excerpt from the recorded local UI demonstration, played faster. [Full recording](docs/demo.webm). [Screenshot](docs/screenshot.png). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
 
 ## The engineering decision
 
