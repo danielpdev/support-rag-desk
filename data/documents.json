@@ -1,0 +1,42 @@
+[
+  {
+    "id": "refund",
+    "tenant": "acme",
+    "text": "Refunds are available within 30 days of purchase. Contact billing with the invoice number."
+  },
+  {
+    "id": "password",
+    "tenant": "acme",
+    "text": "Reset your password using the Forgot password link on the login screen. The reset email expires in 15 minutes."
+  },
+  {
+    "id": "export",
+    "tenant": "acme",
+    "text": "Export workspace data from Settings then Data export. Only workspace administrators can export CSV files."
+  },
+  {
+    "id": "sla",
+    "tenant": "acme",
+    "text": "Enterprise customers receive a first support response within 2 hours during business days."
+  },
+  {
+    "id": "cancel",
+    "tenant": "acme",
+    "text": "Cancel a subscription in Settings then Billing. Access remains available until the paid period ends."
+  },
+  {
+    "id": "retention",
+    "tenant": "acme",
+    "text": "Deleted account data is removed after 90 days. Backups expire after 120 days."
+  },
+  {
+    "id": "refund",
+    "tenant": "beacon",
+    "text": "Beacon refunds are available within 7 days of purchase. The billing team reviews each request."
+  },
+  {
+    "id": "sla",
+    "tenant": "beacon",
+    "text": "Beacon support responds within 48 hours. Enterprise escalation is not offered."
+  }
+]

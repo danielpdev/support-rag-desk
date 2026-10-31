@@ -1,0 +1,53 @@
+{
+  "mode": "local",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:43:40.273721+00:00",
+  "elapsed_seconds": 38.4742,
+  "result": {
+    "passed": true,
+    "cases": {
+      "acme": {
+        "answer": "Refunds are available within 30 days of purchase.",
+        "citations": [
+          "refund"
+        ],
+        "abstain": false,
+        "sources": [
+          {
+            "id": "refund",
+            "text": "Refunds are available within 30 days of purchase. Contact billing with the invoice number.",
+            "tenant": "acme"
+          }
+        ],
+        "tenant": "acme",
+        "mode": "local"
+      },
+      "beacon": {
+        "answer": "Beacon refunds are available within 7 days of purchase.",
+        "citations": [
+          "refund"
+        ],
+        "abstain": false,
+        "sources": [
+          {
+            "id": "refund",
+            "text": "Beacon refunds are available within 7 days of purchase. The billing team reviews each request.",
+            "tenant": "beacon"
+          }
+        ],
+        "tenant": "beacon",
+        "mode": "local"
+      },
+      "unknown": {
+        "answer": "A support specialist needs to review this question.",
+        "citations": [],
+        "sources": [],
+        "abstain": true,
+        "ticket_id": "eb0fe42b-2742-4e54-a75a-9692da09b55c",
+        "reason": "No relevant source found",
+        "tenant": "acme"
+      }
+    },
+    "limitation": "Citation validation checks IDs, not full semantic entailment. Source injection requires broader adversarial evaluation."
+  }
+}
